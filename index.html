@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Testimonial Grid Section Main</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body class="bg-[#ecf2f8] font-['Barlow_Semi_Condensed']  text-sm min-h-screen">
+  <main class="container mx-auto my-6 p-4">
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-4  grid-flow-row-dense md:grid-rows-2">
+      <article
+        class=" md:col-start-1 md:col-end-3 md:row-span-1 bg-[#7541c8] bg-[url('/images/bg-pattern-quotation.svg')] bg-no-repeat bg-[right_4rem_top] text-white px-8 pt-6 rounded shadow-xl">
+        <div class="flex items-center">
+          <img src="/images/image-daniel.jpg" alt="" class="rounded-full inline-block w-8 ring-[#a78bfa] ring-2">
+          <div class="mx-4">
+            <strong class="block text-sm font-normal">Daniel Clifford</strong>
+            <span class="text-xs font-normal opacity-50 text-white">Verified Graduate</span>
+          </div>
+        </div>
+        <p class="leading-normal text-lg mt-1 tracking-wide"> I received a job offer mid-course, and the subjects I
+          learned were current, if not more so,
+          in the company I joined. I honestly feel I got every penny’s worth.</p>
+
+        <blockquote class="leading-relaxed opacity-70 mt-4 text-xs font-medium"> “ I was an EMT for many years before I
+          joined the bootcamp. I’ve been looking to make a
+          transition and have heard some people who had an amazing experience here. I signed up
+          for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
+          The next 12 weeks was the best - and most grueling - time of my life. Since completing
+          the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</blockquote>
+      </article>
+      <article class="md:col-start-3 md:col-end-4 md:row-span-1 bg-[#48556a] px-8 py-6 rounded shadow-xl">
+        <div class="flex items-center">
+          <img src="/images/image-jonathan.jpg" alt="" class="rounded-full inline-block w-8 ring-[#374151] ring-2">
+          <div class="mx-4">
+            <strong class="block text-sm font-normal text-white">Jonathan Walters</strong>
+            <span class="text-xs font-normal opacity-50 text-white">Verified Graduate</span>
+          </div>
+        </div>
+
+        <p class="leading-normal text-lg mt-1 tracking-normal text-white">The team was very supportive and kept me
+          motivated</p>
+
+        <blockquote class="leading-relaxed opacity-70 mt-4 text-xs font-medium text-white"> “ I started as a total
+          newbie
+          with virtually no coding skills. I now work as a mobile engineer
+          for a big company. This was one of the best investments I’ve made in myself. ”</blockquote>
+      </article>
+      <article class="md:col-start-1 md:col-end-2 md:row-start-2 px-8 py-6 bg-[#ffffff] rounded shadow-xl">
+        <div class="flex items-center">
+          <img src="/images/image-jeanette.jpg" alt="" class="rounded-full inline-block w-8">
+          <div class="mx-4">
+            <strong class="block text-sm font-normal text-[#48556a]">Jeanette Harmon</strong>
+            <span class="text-xs font-normal opacity-50 text-[#48556a]">Verified Graduate</span>
+          </div>
+        </div>
+        <p class="leading-normal text-lg mt-1 tracking-wide text-[#48556a] font-bold">An overall wonderful and rewarding
+          experience</p>
+
+        <blockquote class="font-medium text-[#48556a] leading-relaxed opacity-70 mt-4 text-xs"> “ Thank you for the
+          wonderful experience! I now have a job I really enjoy, and make a good living
+          while doing something I love. ”</blockquote>
+      </article>
+      <article class="md:col-start-2 md:col-end-4 md:row-start-2 bg-[#19212e] px-8 py-6 rounded shadow-xl">
+        <div class="flex items-center">
+          <img src="/images/image-patrick.jpg" alt="" class="rounded-full inline-block w-8 ring-[#7541c8] ring-2">
+          <div class="mx-4">
+            <strong class="block text-sm font-normal text-white">Patrick Abrams</strong>
+            <span class="text-xs font-normal opacity-50 text-white">Verified Graduate</span>
+          </div>
+        </div>
+        <p class="leading-normal text-lg mt-1 tracking-wide text-white"> Awesome teaching support from TAs who did the
+          bootcamp themselves. Getting guidance from them and
+          learning from their experiences was easy.</p>
+
+        <blockquote class="font-medium text-white leading-relaxed opacity-70 mt-4 text-xs"> “ The staff seem genuinely
+          concerned about my progress which I find really refreshing. The program
+          gave me the confidence necessary to be able to go out in the world and present myself as a capable
+          junior developer. The standard is above the rest. You will get the personal attention you need from
+          an incredible community of smart and amazing people. ”</blockquote>
+      </article>
+      <article class="md:col-start-4 md:col-end-5 md:row-span-2 px-8 py-6 bg-[#ffffff] rounded shadow-xl">
+        <div class="flex items-center">
+          <img src="/images/image-kira.jpg" alt="" class="rounded-full inline-block w-8">
+          <div class="mx-4">
+            <strong class="block text-sm font-normal text-[#48556a]">Kira Whittle</strong>
+            <span class="text-xs font-normal opacity-50 text-[#48556a]">Verified Graduate</strong>
+          </div>
+        </div>
+        <p class="leading-normal text-lg mt-1 tracking-wide text-[#48556a] font-bold"> Such a life-changing experience.
+          Highly recommended!</p>
+
+        <blockquote class="font-medium text-[#48556a] leading-relaxed opacity-70 mt-4 text-xs"> “ Before joining the
+          bootcamp, I’ve never written a line of
+          code. I needed some structure from
+          professionals who can help me learn programming step by step. I was encouraged to enroll by a former
+          student of theirs who can only say wonderful things about the program. The entire curriculum and staff
+          did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team
+          project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial
+          could ever have. In fact, I’ve often referred to it during interviews as an example of my developent
+          experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers.
+          100% recommend! ”</blockquote>
+      </article>
+    </div>
+  </main>
+</body>
+
+</html>
